@@ -7,6 +7,7 @@ public class Main {
 //        basePizza.getBill();
 
         DeluxePizza dp = new DeluxePizza(false);
+        dp.takeAway();
         dp.getBill();
 
     }
